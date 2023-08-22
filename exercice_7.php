@@ -8,7 +8,7 @@
     <title></title>
     <style>
         td, table{
-            border: 1px solid black;
+            border: 1px solid #000000;
 
         }
         td{
@@ -17,7 +17,7 @@
             text-align:center;
         }
         .FL {
-            background-color: rgb(197, 197, 197);
+            background-color: rgb(204, 204, 204);
         }
     </style>
 </head>

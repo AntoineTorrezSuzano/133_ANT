@@ -9,9 +9,9 @@
 </head>
 <body>
     <?php
-        $time = time();
+        $temps = time();
 
-        $mois =  date("m", $time);
+        $mois =  date("m", $temps);
 
         switch ($mois){
 

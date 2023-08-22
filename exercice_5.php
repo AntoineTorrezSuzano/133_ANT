@@ -11,9 +11,9 @@
     <?php
         $time = time();
 
-        $second =  date("s", $time);
-        echo $second;
-        if (($second % 2) == 0){
+        $seconds =  date("s", $time);
+        echo $seconds;
+        if (($seconds % 2) == 0){
             echo "<p>pair</p>";
         } else {
             echo "<p>impair</p>";
