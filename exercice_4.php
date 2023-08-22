@@ -9,11 +9,17 @@
 </head>
 <body>
     <?php
-    $rayon = 234
 
+    doubleval ( $rayon = 5 );
+    const pi = 3.14159265359;
+    $circonference = round((2 * $rayon)* pi, 2);
+    $diametre = $rayon * 2;
+    $surface = round(($rayon * $rayon) * pi, 2);
 
-
-
+    echo "<p>rayon : $rayon</p>";
+    echo "<p>diamètre : $diametre</p>";
+    echo "<p>circonférence : $circonference</p>";
+    echo "<p>surface : $surface</p>";
     ?>
 </body>
 </html>
